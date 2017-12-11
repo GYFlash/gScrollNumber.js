@@ -30,7 +30,7 @@
             <state relative-caret-position="132">
               <caret line="6" column="105" lean-forward="false" selection-start-line="6" selection-start-column="105" selection-end-line="6" selection-end-column="105" />
               <folding>
-                <marker date="1512955813682" expanded="true" signature="652:659" ph="..." />
+                <marker date="1512955999031" expanded="true" signature="652:659" ph="..." />
               </folding>
             </state>
           </provider>
@@ -62,7 +62,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="474" />
     <option name="y" value="81" />
     <option name="width" value="1411" />
@@ -149,18 +149,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512954092450</updated>
-      <workItem from="1512954093620" duration="1804000" />
+      <workItem from="1512954093620" duration="2033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1804000" />
+    <option name="totallyTimeSpent" value="2033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="474" y="81" width="1411" height="881" extended-state="1" />
-    <editor active="true" />
+    <frame x="474" y="81" width="1411" height="881" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20430107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20430107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -202,7 +201,7 @@
         <state relative-caret-position="132">
           <caret line="6" column="105" lean-forward="false" selection-start-line="6" selection-start-column="105" selection-end-line="6" selection-end-column="105" />
           <folding>
-            <marker date="1512955813682" expanded="true" signature="652:659" ph="..." />
+            <marker date="1512955999031" expanded="true" signature="652:659" ph="..." />
           </folding>
         </state>
       </provider>
