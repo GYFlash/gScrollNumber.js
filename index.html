@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>里程表数字滚动效果 Demo</title>
+    <style>
+        * {margin: 0;padding: 0;}
+        html,body {width: 100%;}
+        .container {margin: 100px auto;}
+        .container li {margin-left: 50px;display: block; height: 60px;border: 1px solid goldenrod;margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <ul class="container">
+        <li class="scroll-number-0"></li>
+        <li class="scroll-number-1"></li>
+    </ul>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="gScrollNumber.js"></script>
+    <script>
+        /**
+         * 初始化一个数字滚动对象
+         * 构造函数的参数项可查看 gScrollNumber.js 里面的注释
+         */
+        var scrollNumber0 = new gScrollNumber(".scroll-number-0", {
+           width: 30, // 每个数字元素的宽
+           color: "orange", // 数字元素的字体颜色
+           fontSize: 40, // 数字元素的字体大小
+           autoSizeContainerWidth: true // 自动计算容器宽度 .scroll-number-0 ，如果已经使用css 制定了容器的宽度，此处可设置为false
+        });
+        var scrollNumber1 = new gScrollNumber(".scroll-number-1", {
+            width: 30,
+            color: "orange",
+            fontSize: 40,
+            autoSizeContainerWidth: true
+        });
+        var value0,value1;
+        value0 = 0;
+        value1 = 0;
+        setInterval(function () {
+            scrollNumber0.run(value0++);
+            scrollNumber1.run(value1 += 2);
+        }, 1000);
+    </script>
+</body>
+</html>
